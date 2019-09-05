@@ -61,19 +61,19 @@
 ### Nginx Test
 
 ### Low Level Library (Libevent)
-500b
-| Experiment | Time Per Request | Memory Usage |
-|------------|------------------|--------------|
-| 1          | 0.128 ms         | ~200000      |
-| 2          | 0.110 ms         | ~190000      |
-| 3          | 0.113 ms         | ~190000      |
+1. 500 bytes HTML file
+| Experiment | Time per Request (avg) | Total Time Taken | Memory Usage |
+|------------|------------------------|------------------|--------------|
+| 1          | 0.128 ms               | 1.278 s          | 0.20 GB      |
+| 2          | 0.110 ms               | 1.102 s          | 0.19 GB      |
+| 3          | 0.113 ms               | 1.129 s          | 0.19 GB      |
 
-20k
-| Experiment | Time Per Request | Memory Usage |
-|------------|------------------|--------------|
-| 1          | 0.124 ms         | ~180000      |
-| 2          | 0.131 ms         | ~190000      |
-| 3          | 0.120 ms         | ~200000      |
+2. 20 kilobytes HTML file
+| Experiment | Time per Request (avg) | Total Time Taken | Memory Usage |
+|------------|------------------------|------------------|--------------|
+| 1          | 0.124 ms               | 1.243 s          | 0.18 GB      |
+| 2          | 0.131 ms               | 1.312 s          | 0.19 GB      |
+| 3          | 0.120 ms               | 1.197 s          | 0.20 GB      |
 
 ### High Level Library (Tornado)
 
