@@ -1,9 +1,8 @@
-low_level:
-	mkdir -p bin
-	g++ src/low_level.cpp -o bin/low_level -levent
+build_low_level:
+	g++ libevent/main.cpp -o libevent/main -levent
 
 run_low_level:
-	./bin/low_level
+	./libevent/main
 
 run_high_level:
-	python src/high_level.py
+	python tornado/main.py

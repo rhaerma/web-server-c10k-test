@@ -11,7 +11,7 @@
 ### Low Level
 1. Run this command to build low level server
     ```
-    make low_level
+    make build_low_level
     ```
 
 2. Run this command to run low level server
