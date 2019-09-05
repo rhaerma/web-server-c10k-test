@@ -1,0 +1,35 @@
+Server Software:        TornadoServer/4.5.3
+Server Hostname:        localhost
+Server Port:            9000
+
+Document Path:          /20k
+Document Length:        15676 bytes
+
+Concurrency Level:      10000
+Time taken for tests:   75.194 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      158740000 bytes
+HTML transferred:       156760000 bytes
+Requests per second:    132.99 [#/sec] (mean)
+Time per request:       75194.031 [ms] (mean)
+Time per request:       7.519 [ms] (mean, across all concurrent requests)
+Transfer rate:          2061.59 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    5  47.1      0     513
+Processing: 28348 49024 11816.1  47711   70280
+Waiting:        5 24114 13888.5  24135   47251
+Total:      28348 49029 11816.1  47711   70280
+
+Percentage of the requests served within a certain time (ms)
+  50%  47711
+  66%  54791
+  75%  59440
+  80%  61506
+  90%  66162
+  95%  68226
+  98%  69767
+  99%  69773
+ 100%  70280 (longest request)

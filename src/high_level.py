@@ -1,6 +1,5 @@
-import tornado
+import tornado.ioloop
 import tornado.web
-
 from tornado.options import options, define
 
 define("port", default=9000, help="TCP port to listen on")
@@ -29,3 +28,4 @@ if __name__ == "__main__":
     app = make_app()
     app.listen(options.port)
     tornado.ioloop.IOLoop.current().start()
+    
