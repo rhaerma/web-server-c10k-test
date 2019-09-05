@@ -50,7 +50,7 @@
 
 ## Result
 
-### Apache Test
+### Nginx Test
 1. 500 bytes HTML file
 | Experiment | Time per Request (avg) | Total Time Taken | Memory Usage |
 |------------|------------------------|------------------|--------------|
@@ -58,7 +58,20 @@
 | 2          | 0.049 ms               | 0.490 s          | 0.15 GB      |
 | 3          | 0.049 ms               | 0.485 s          | 0.14 GB      |
 
-### Nginx Test
+### Apache Test
+1. 500 bytes HTML file
+| Experiment | Time per Request (avg) | Total Time Taken | Memory Usage |
+|------------|------------------------|------------------|--------------|
+| 1          | 0.071 ms               | 0.710 s          | 0.13 GB      |
+| 2          | 0.069 ms               | 0.689 s          | 0.13 GB      |
+| 3          | 0.072 ms               | 0.724 s          | 0.13 GB      |
+
+2. 20 kilobytes HTML file
+| Experiment | Time per Request (avg) | Total Time Taken | Memory Usage |
+|------------|------------------------|------------------|--------------|
+| 1          | 0.079 ms               | 0.785 s          | 0.12 GB      |
+| 2          | 0.080 ms               | 0.799 s          | 0.12 GB      |
+| 3          | 0.077 ms               | 0.769 s          | 0.12 GB      |
 
 ### Low Level Library (Libevent)
 1. 500 bytes HTML file
