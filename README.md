@@ -58,6 +58,13 @@
 | 2          | 0.049 ms               | 0.490 s          | 0.15 GB      |
 | 3          | 0.049 ms               | 0.485 s          | 0.14 GB      |
 
+2. 20 kilobytes HTML File
+| Experiment | Time per Request (avg) | Total Time Taken | Memory Usage |
+|------------|------------------------|------------------|--------------|
+| 1          | 0.053 ms               | 0.534 s          | 0.15 GB      |
+| 2          | 0.054 ms               | 0.544 s          | 0.16 GB      |
+| 3          | 0.051 ms               | 0.511 s          | 0.15 GB      |
+
 ### Apache Test
 1. 500 bytes HTML file
 | Experiment | Time per Request (avg) | Total Time Taken | Memory Usage |
