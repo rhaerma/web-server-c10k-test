@@ -55,6 +55,19 @@
 ### Nginx Test
 
 ### Low Level Library (Libevent)
+500b
+| Experiment | Time Per Request | Memory Usage |
+|------------|------------------|--------------|
+| 1          | 0.128 ms         | ~200000      |
+| 2          | 0.110 ms         | ~190000      |
+| 3          | 0.113 ms         | ~190000      |
+
+20k
+| Experiment | Time Per Request | Memory Usage |
+|------------|------------------|--------------|
+| 1          | 0.124 ms         | ~180000      |
+| 2          | 0.131 ms         | ~190000      |
+| 3          | 0.120 ms         | ~200000      |
 
 ### High Level Library (Tornado)
 
